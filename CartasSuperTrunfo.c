@@ -78,5 +78,20 @@ int main() {
         printf("Pontos Turísticos: %d\n", cidades[i].pontos_turisticos);
     }
 
+    printf("========================= Hora do Duelo ==================");
+
+    char carta1, carta2;
+    //Escolha das cartas
+    printf ("Escolha a Primeira carta: \n");
+    scanf ("%c", &carta1);
+    printf ("Escolha a Segunda carta: \n");
+    scanf ("%c", &carta2);
+
+    if (carta1  0) {
+    printf("O número é par\n");
+  } else {
+    printf("O número é ímpar\n");
+  }
+    
     return 0;
 }
